@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [],
   build: {
     lib: {
-      entry: path.resolve(__dirname, "MSDF-Text/index.js"),
+      entry: path.resolve(__dirname, "src/index.js"),
       name: "babylon-msdf-text",
       formats: ["es"],
       fileName: (format) => `babylon-msdf-text.${format}.js`,
